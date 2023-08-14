@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BannerComponent } from './banner/banner.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { ArticlesModule } from './articles/articles.module';
+import { StaticpagesModule } from './staticpages/staticpages.module';
 
 @NgModule({
   declarations: [
@@ -14,13 +16,10 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     HeaderComponent,
     FooterComponent,
     BannerComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, ArticlesModule, StaticpagesModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

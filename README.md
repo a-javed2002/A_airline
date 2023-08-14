@@ -30,7 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## First install bootstrap --> npm install bootstrap --> Add Files From Node_modules/bootstrap/dist/ too Angular.json file
 
 //Let’s create project Module:
-## ng g module articles 
+## ng g module articles --routing
 ## ng g module admin
 ## ng g module middleware
 ## ng g module staticpages
@@ -92,6 +92,8 @@ Create Home page layout structure
 
 
  
+//view on mobile --> ipconfig(get IPv4 Address) --> on mobile browser --> http://<IPv4 Address>:<port number>
+//http://192.168.2.109:4200
 
 
 //important notes
